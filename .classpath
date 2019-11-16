@@ -2,8 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="F:/créations/minecraft/serveur test plugin/plugins/Vault.jar"/>
-	<classpathentry kind="lib" path="F:/créations/minecraft/serveur test plugin/spigot-1.14.2.jar"/>
-	<classpathentry kind="lib" path="F:/créations/minecraft/api/citizensapi-2.0.25-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelda/Desktop/api/Citizens-2.0.25-b1702.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelda/Desktop/api/spigot-1.14.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelda/Desktop/api/Vault.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

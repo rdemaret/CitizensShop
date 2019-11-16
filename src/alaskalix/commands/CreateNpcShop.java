@@ -10,7 +10,6 @@ import alaskalix.main.Main;
 import net.citizensnpcs.api.CitizensAPI;
 import net.citizensnpcs.api.npc.NPC;
 import net.citizensnpcs.api.npc.NPCRegistry;
-import net.md_5.bungee.api.ChatColor;
 
 public class CreateNpcShop implements CommandExecutor {
 	
@@ -40,7 +39,7 @@ public class CreateNpcShop implements CommandExecutor {
 				
 				return true;
 			}else {
-				p.sendMessage(ChatColor.DARK_RED + "/createnpcshop <name>");
+				p.sendMessage(Messages.CREATE_PATTERN);
 				return false;
 			}
 			

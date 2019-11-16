@@ -31,8 +31,8 @@ public class Main extends JavaPlugin{
 			getServer().getPluginManager().disablePlugin(this);
 			return;
 		}
-		getCommand("createnpcshop").setExecutor(new CreateNpcShop(this));
-		getCommand("citizensShop").setExecutor(new CitizensShop(this));
+		getCommand("createShop").setExecutor(new CreateNpcShop(this));
+		getCommand("ctzShop").setExecutor(new CitizensShop(this));
 	}
 
 	private boolean setupEconomy() {

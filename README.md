@@ -1,1 +1,1 @@
-CitizensShop.
+CitizensShop

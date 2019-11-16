@@ -1,14 +1,14 @@
 name: CitizensShop
 version: 1.0
-author: Alaskalix
+author: Alaskalix, Fred46
 main: alaskalix.main.Main
-description: plugin de shop pour les npcs
+description: Gestionnaire de shop pour npc
 api-version: 1.14
 depend: [Citizens, Vault]
 commands:
-  createnpcshop:
+  createShop:
     description: create a npc shop
     permission: citizensShop.admin
-  citizensShop:
-    description: add or remove items frop selected shop
+  ctzShop:
+    description: add or remove items from a shop
     permission: citizensShop.admin
