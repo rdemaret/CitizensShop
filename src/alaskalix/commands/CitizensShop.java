@@ -103,10 +103,10 @@ public class CitizensShop implements CommandExecutor {
 					String temp = Integer.toString(i);
 					if(cs.contains(temp)) {
 						cs.set(temp, null);
-						saveAndNotify(Messages.SUCCESSFULL_OPERATION,player);
-						return true;
 					}
 				}
+				saveAndNotify(Messages.SUCCESSFULL_OPERATION,player);
+				return true;
 			}
 			
 			//Specified index exist in config
